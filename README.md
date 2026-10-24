@@ -30,39 +30,32 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global 3D animation and character rigging software market is valued at **$15B – $30B**, with the specialized motion capture sub-segment accounting for **$300M – $1B+** as real-time tracking expands. The sector exhibits a dual market structure: foundational DCC software pipelines and high-end optical capture hardware are **highly concentrated** around legacy incumbents (e.g., Adobe, Autodesk), while AI-driven markerless capture, browser-based auto-rigging, and indie animation toolkits are **moderately to highly fragmented** with rapid startup and open-source innovation.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[Mixamo (Adobe)](https://www.mixamo.com/)** | Browser-based auto-rigger and animation library with 2,000+ motion-capture clips. | **Free** with Adobe account . | **Fully free**—no trial, no watermark, commercial use allowed. You own the output; cannot resell raw animation data . |
-
-| **[DeepMotion](https://www.deepmotion.com/)** | AI motion capture from video, plus real-time body tracking. | Free plan available; paid plans scale with processing minutes and features . | **Free plan** available with limited processing minutes (exact allocation requires signup) . |
-
-| **[Plask](https://plask.dev/)** | AI motion capture from video for animators. **Note**: the current Plask offering appears to have pivoted to a product analytics tool, not motion capture . | Pro from **$5/month** (or $48/year) for analytics features . | **Free** for one product (analytics context, not mocap) . |
-
-| **[Rokoko Studio](https://www.rokoko.com/products/studio)** | Motion capture software for Rokoko hardware and AI video processing. | **Starter**: Free. **Basic**: $10/mo (annual). **Plus**: $20/mo. **Pro**: $50/mo. **Enterprise**: from $100/mo . | **Starter (free forever)**: Record & export mocap, 30s/month Vision AI video processing, 5 text-to-motion imports/month, 1 month cloud storage . |
-
-| **[Move.ai](https://www.move.ai/)** | Markerless multi-camera motion capture from video. | Per-second pricing: **$0.012/sec** (s1 single camera) to **$0.043/sec/camera** (m2 multi-camera), with resolution/FPS/camera multipliers . | **No free tier**. Minimum charge **$0.10 per job** . |
-
-| **[AccuRIG (Reallusion)](https://www.reallusion.com/auto-rig/accurig.html)** | Auto-rigging tool for humanoid characters. | **Free tier** available; **Paid** from **$29/month** (up to $99+/month) . | **Free tier** available with limited features . |
-
-| **[Cascadeur](https://cascadeur.com/)** | AI-assisted keyframe animation software with physics-based posing. | **Free** (non-commercial only). **Paid plans** for commercial use (pricing not shown in search) . | **Free plan**: only proprietary CASC format, **no commercial use**. Educational plans also non-commercial . |
-
-| **[Wonder Dynamics (Autodesk Flow Studio)](https://www.autodesk.com/)** | AI-powered character animation and VFX from video. **Acquired by Autodesk**; rebranded as Flow Studio. | **Free tier** launched (AI Mocap + Live Action). **Lite** plan reduced to ~$8.50/month (R$45). Pro and Enterprise tiers available . | **Free tier**: AI Mocap and Live Action essentials. Advanced features require paid plans . |
+| Product | Description | Company Scale (Revenue / Valuation) | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Mixamo (Adobe)](https://www.mixamo.com/)** | Browser-based auto-rigger and animation library with 2,000+ motion-capture clips. | **~$26B Revenue / ~$250B Valuation** (Adobe Inc., NASDAQ: ADBE) | **$0** (Free with an Adobe account) | **Free forever**: Full access to 2,000+ mocap animations and auto-rigging pipeline; standard commercial use permitted. |
+| **[Wonder Dynamics (Autodesk Flow Studio)](https://www.autodesk.com/)** | AI-powered character animation, mocap, and VFX pipeline from video (formerly Wonder Studio). | **~$7.8B Revenue / ~$50B Valuation** (Autodesk, NASDAQ: ADSK) | Paid tiers start at **$7/month** (Lite plan, billed annually at $84/yr) or $10/month billed monthly; Pro at $64/month | **Free forever tier**: 300 credits/mo, max 720p export, 1 concurrent job, 1 actor tracking per project, 1 GB storage, 3 custom characters, watermarked outputs. |
+| **[Cascadeur](https://cascadeur.com/)** | AI-assisted keyframe animation software with physics-based posing. | **~$20M – $50M Est. Revenue** (Nekki, parent gaming studio) | **$8/month** (Indie plan, billed annually at $96/yr) or $19/month billed monthly; Pro at $33/month | **Free forever plan**: Non-commercial use only, export strictly limited to proprietary `.casc` format (no standard FBX/DAE/USD export). |
+| **[Rokoko Studio](https://www.rokoko.com/products/studio)** | Motion capture suite for Rokoko hardware and AI video tracking. | **~$50M – $100M Valuation** (~$13.7M venture funding raised) | **$10/month** (Basic plan, billed annually) or $15/month billed monthly; Plus at $20/month, Pro at $50/month | **Starter plan (free forever)**: Basic recording and motion capture editing, 30 seconds/month Vision AI video mocap processing, 5 text-to-motion imports/mo, 1 month cloud storage. |
+| **[AccuRIG (Reallusion)](https://www.reallusion.com/auto-rig/accurig.html)** | Standalone auto-rigging tool for humanoid 3D characters. | **~$7M – $9M Annual Revenue** (Reallusion Inc., TPEX: 6882) | **$0** (Standalone software is completely free; optional ActorCore motions priced individually or via packs) | **Free forever plan**: Unlimited auto-rigging and FBX/USD exports with full commercial rights; limited to humanoid biped meshes and ~30 free sample motions from ActorCore. |
+| **[Move.ai](https://www.move.ai/)** | Markerless single-camera (Move One iOS) and multi-camera motion capture. | **<$50M Valuation** ($1M – $10M ARR est., venture-backed) | **$18/month** (Move One Starter tier, credit-based) or usage-based at $0.012/sec (s1 single-cam); custom enterprise pricing for Genesis multi-cam volumes | **Free plan (Move One iOS)**: One-time allotment of 30 credits (non-expiring), max 30 seconds per video capture; multi-camera Genesis workflows require a scheduled enterprise demo/trial. |
+| **[DeepMotion](https://www.deepmotion.com/)** | AI video-to-3D motion capture and real-time body tracking platform. | **~$1.4M ARR est.** (Venture-backed / strategic AI footprint) | **$9/month** (Starter plan for Animate 3D, billed annually at $108/yr) or $15/month billed monthly | **Freemium plan (free forever)**: 25 animation credits/month (1 credit = 1 sec body animation), max 20 seconds per video, max 2 persons tracked, 1080p@30fps, strictly personal non-commercial use. |
+| **[Plask Motion](https://plask.ai/)** | Browser-based AI motion capture from video for animators and digital creators. | **~$1.4M ARR est.** ($2.56M total venture funding raised) | **$18/month** (Standard plan, billed annually) or $40/month billed monthly; Pro tier at $50/month (billed annually) | **Freemium plan (free forever)**: Up to 900 daily credits (~15–30s of AI mocap processing daily), basic keyframe editing, limited personal non-commercial export. |
 
 
 
