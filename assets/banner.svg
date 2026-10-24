@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070913" />
+      <stop offset="50%" stop-color="#0e1326" />
+      <stop offset="100%" stop-color="#140a24" />
+    </linearGradient>
+
+    <linearGradient id="primaryTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="40%" stop-color="#a78bfa" />
+      <stop offset="80%" stop-color="#f472b6" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="accentCyanPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowPurple" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="isometricGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3" />
+      <circle cx="40" cy="40" r="1.5" fill="#64748b" fill-opacity="0.3" />
+    </pattern>
+
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(2deg); }
+      }
+      @keyframes floatFast {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(-3deg); }
+      }
+      @keyframes pulseOrb {
+        0%, 100% { transform: scale(1); opacity: 0.45; }
+        50% { transform: scale(1.15); opacity: 0.75; }
+      }
+      @keyframes dashAnim {
+        to { stroke-dashoffset: -40; }
+      }
+      @keyframes jointPulse {
+        0%, 100% { r: 5; fill: #38bdf8; }
+        50% { r: 7.5; fill: #f43f5e; }
+      }
+
+      .floating-orb-1 {
+        transform-origin: 200px 100px;
+        animation: pulseOrb 8s ease-in-out infinite alternate;
+      }
+      .floating-orb-2 {
+        transform-origin: 1020px 300px;
+        animation: pulseOrb 10s ease-in-out infinite alternate-reverse;
+      }
+      .rig-lines {
+        stroke-dasharray: 6, 6;
+        animation: dashAnim 4s linear infinite;
+      }
+      .dynamic-joint {
+        animation: jointPulse 3s ease-in-out infinite;
+      }
+      .pill-card-1 {
+        animation: floatSlow 6s ease-in-out infinite;
+      }
+      .pill-card-2 {
+        animation: floatFast 5s ease-in-out infinite;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+      }
+      .sub-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- Background Animated Ambient Glowing Orbs -->
+  <circle class="floating-orb-1" cx="180" cy="110" r="140" fill="#6366f1" filter="url(#glowPurple)" />
+  <circle class="floating-orb-2" cx="1040" cy="290" r="160" fill="#ec4899" filter="url(#glowPurple)" />
+  <circle cx="600" cy="210" r="180" fill="#0284c7" opacity="0.15" filter="url(#glowCyan)" />
+
+  <!-- Grid overlay -->
+  <rect width="100%" height="100%" fill="url(#isometricGrid)" />
+
+  <!-- Animated Skeleton / Rigging Mesh Overlay in Background -->
+  <g opacity="0.45">
+    <!-- Motion Capture Rig Nodes -->
+    <path class="rig-lines" d="M 120 320 L 190 230 L 270 240 L 320 160 L 300 90" stroke="#38bdf8" stroke-width="2.5" fill="none" />
+    <path class="rig-lines" d="M 190 230 L 200 340 L 260 380" stroke="#818cf8" stroke-width="2" fill="none" />
+    
+    <circle cx="120" cy="320" r="5" fill="#38bdf8" />
+    <circle cx="190" cy="230" r="6" fill="#818cf8" class="dynamic-joint" />
+    <circle cx="270" cy="240" r="5" fill="#c084fc" />
+    <circle cx="320" cy="160" r="6" fill="#38bdf8" class="dynamic-joint" />
+    <circle cx="300" cy="90" r="9" fill="#f43f5e" />
+    <circle cx="200" cy="340" r="4.5" fill="#818cf8" />
+    <circle cx="260" cy="380" r="4.5" fill="#38bdf8" />
+
+    <!-- Right Side 3D Bone Hierarchy Lines -->
+    <path class="rig-lines" d="M 1080 340 L 1010 250 L 930 240 L 890 150 L 920 80" stroke="#f472b6" stroke-width="2.5" fill="none" />
+    <path class="rig-lines" d="M 1010 250 L 1020 360 L 960 390" stroke="#c084fc" stroke-width="2" fill="none" />
+    
+    <circle cx="1080" cy="340" r="5" fill="#f472b6" />
+    <circle cx="1010" cy="250" r="6" fill="#c084fc" class="dynamic-joint" />
+    <circle cx="930" cy="240" r="5" fill="#818cf8" />
+    <circle cx="890" cy="150" r="6" fill="#f472b6" class="dynamic-joint" />
+    <circle cx="920" cy="80" r="9" fill="#38bdf8" />
+    <circle cx="1020" cy="360" r="4.5" fill="#c084fc" />
+    <circle cx="960" cy="390" r="4.5" fill="#f472b6" />
+  </g>
+
+  <!-- Central Glass Banner Card -->
+  <rect x="140" y="45" width="920" height="330" rx="24" fill="url(#cardGrad)" stroke="#475569" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- Main Titles (Foreground, fully visible and clear) -->
+  <g text-anchor="middle">
+    <!-- Category Pill Tag -->
+    <rect x="475" y="70" width="250" height="34" rx="17" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5" />
+    <text x="600" y="93" fill="#a5b4fc" class="sub-text" font-size="13" font-weight="600" letter-spacing="1.2">CURATED ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="600" y="165" fill="url(#primaryTextGrad)" class="title-text" font-size="44">
+      Awesome 3D Character Animation &amp; Rigging
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="210" fill="#e2e8f0" class="sub-text" font-size="19" font-weight="500">
+      Auto-Rigging • AI Motion Capture • Video-to-BVH • Real-Time VTuber Toolkits
+    </text>
+
+    <!-- Secondary Tagline -->
+    <text x="600" y="244" fill="#94a3b8" class="sub-text" font-size="14.5">
+      Comprehensive Directory of Open-Source Projects &amp; Commercial SaaS Pipelines
+    </text>
+  </g>
+
+  <!-- Interactive Dynamic Floating Feature Badges (Positioned below text so they never obscure it) -->
+  <g class="pill-card-1">
+    <g transform="translate(200, 280)">
+      <rect width="180" height="46" rx="23" fill="#0f172a" stroke="#0284c7" stroke-width="1.5" />
+      <circle cx="28" cy="23" r="8" fill="#38bdf8" />
+      <text x="48" y="28" fill="#f1f5f9" class="sub-text" font-size="13.5" font-weight="600">🦴 Auto-Rigging</text>
+    </g>
+    <g transform="translate(820, 280)">
+      <rect width="180" height="46" rx="23" fill="#0f172a" stroke="#ec4899" stroke-width="1.5" />
+      <circle cx="28" cy="23" r="8" fill="#f472b6" />
+      <text x="48" y="28" fill="#f1f5f9" class="sub-text" font-size="13.5" font-weight="600">📹 AI MoCap</text>
+    </g>
+  </g>
+
+  <g class="pill-card-2">
+    <g transform="translate(410, 280)">
+      <rect width="180" height="46" rx="23" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.5" />
+      <circle cx="28" cy="23" r="8" fill="#a78bfa" />
+      <text x="48" y="28" fill="#f1f5f9" class="sub-text" font-size="13.5" font-weight="600">🌐 Web / Offline</text>
+    </g>
+    <g transform="translate(620, 280)">
+      <rect width="180" height="46" rx="23" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+      <circle cx="28" cy="23" r="8" fill="#34d399" />
+      <text x="48" y="28" fill="#f1f5f9" class="sub-text" font-size="13.5" font-weight="600">🔓 Open-Source</text>
+    </g>
+  </g>
+
+</svg>
