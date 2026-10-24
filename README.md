@@ -115,7 +115,7 @@ Contributions are warmly welcomed! Help keep this directory accurate, up-to-date
 
 1. 🍴 **Fork the repository**.
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-tool`).
-3. 📝 **Add or update an entry** in `README.md` following the established table / list format. Include pricing details and free tier limits for SaaS, or a verified GitHub Stars_Badge for open-source entries.
+3. 📝 **Add or update an entry** in `README.md` following the established table / list format. Include pricing details and free tier limits for SaaS, or a verified GitHub_Stars_Badge for open-source entries.
 4. 🚀 **Commit and push** your changes (`git commit -m "feat: add NewTool entry"`).
 5. 📬 **Open a Pull Request** with a brief summary of the software or repository added.
 
@@ -152,3 +152,12 @@ If this curated repository saved you time, helped your indie game development pi
 *Democratizing character animation, neural rigging, and markerless motion capture.*
 
 </div>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-3D-Character-Animation-Rigging&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-3D-Character-Animation-Rigging_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-3D-Character-Animation-Rigging_growth.svg">
+  </picture>
+</a>
