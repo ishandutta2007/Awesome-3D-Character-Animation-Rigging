@@ -60,52 +60,52 @@ The global 3D animation and character rigging software market is valued at **$15
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted in descending order by GitHub Stars.*
+*Sorted in descending order by GitHub_Stars.*
 
-- **[EasyMocap](https://github.com/zju3dv/EasyMocap)** [![GitHub Stars](https://img.shields.io/github/stars/zju3dv/EasyMocap?style=social&color=white)](https://github.com/zju3dv/EasyMocap/stargazers)  
+- **[EasyMocap](https://github.com/zju3dv/EasyMocap)** [![GitHub_Stars](https://img.shields.io/github/stars/zju3dv/EasyMocap?style=social&color=white)](https://github.com/zju3dv/EasyMocap/stargazers)  
   🏃 **The Comprehensive Motion Capture Toolkit.** Open-source framework developed by Zhejiang University for human motion capture, 3D pose estimation, and parametric body model (SMPL/SMPL-X) recovery from both monocular and multi-camera synchronized setups. Best for researchers and technical directors building studio-grade markerless pipelines.
 
-- **[Mesh2Motion](https://github.com/Mesh2Motion/mesh2motion-app)** [![GitHub Stars](https://img.shields.io/github/stars/Mesh2Motion/mesh2motion-app?style=social&color=white)](https://github.com/Mesh2Motion/mesh2motion-app/stargazers)  
+- **[Mesh2Motion](https://github.com/Mesh2Motion/mesh2motion-app)** [![GitHub_Stars](https://img.shields.io/github/stars/Mesh2Motion/mesh2motion-app?style=social&color=white)](https://github.com/Mesh2Motion/mesh2motion-app/stargazers)  
   🦴 **The MIT-Licensed Mixamo Alternative.** Import a 3D model (GLB/GLTF), choose a skeleton preset, interactively adjust joint placements to fit the geometry, preview animation clips, and export—completely client-side or self-hosted via Docker (`docker-compose up -d` → `localhost:3000`). All accompanying assets, rigs, and animations carry a **CC0 license** for unrestricted commercial and private use.
 
-- **[SysMocap](https://github.com/xianfei/SysMocap)** [![GitHub Stars](https://img.shields.io/github/stars/xianfei/SysMocap?style=social&color=white)](https://github.com/xianfei/SysMocap/stargazers)  
+- **[SysMocap](https://github.com/xianfei/SysMocap)** [![GitHub_Stars](https://img.shields.io/github/stars/xianfei/SysMocap?style=social&color=white)](https://github.com/xianfei/SysMocap/stargazers)  
   🎥 **Real-Time Cross-Platform Avatar Driving System.** Desktop application (Windows, macOS, Linux) that turns an ordinary webcam feed into full-body, hand, and facial motion capture. Drives custom 3D avatars (VRM, GLB, FBX) in real time with integrated OBS virtual camera support for VTubers, live streamers, and real-time animators.
 
-- **[Low-Cost-Mocap](https://github.com/jyjblrd/Low-Cost-Mocap)** [![GitHub Stars](https://img.shields.io/github/stars/jyjblrd/Low-Cost-Mocap?style=social&color=white)](https://github.com/jyjblrd/Low-Cost-Mocap/stargazers)  
+- **[Low-Cost-Mocap](https://github.com/jyjblrd/Low-Cost-Mocap)** [![GitHub_Stars](https://img.shields.io/github/stars/jyjblrd/Low-Cost-Mocap?style=social&color=white)](https://github.com/jyjblrd/Low-Cost-Mocap/stargazers)  
   🎯 **Room-Scale Outside-In Optical Tracking.** An open-source, budget-friendly optical motion capture pipeline utilizing budget cameras (e.g. modified Sony PS3 Eye cameras with IR bandpass filters) and retroreflective active/passive markers. Triangulates multi-view 3D marker coordinates using epipolar geometry and bundle adjustment for robotics, VR room tracking, and indie motion capture.
 
-- **[FrankMocap](https://github.com/facebookresearch/frankmocap)** [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/frankmocap?style=social&color=white)](https://github.com/facebookresearch/frankmocap/stargazers)  
+- **[FrankMocap](https://github.com/facebookresearch/frankmocap)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/frankmocap?style=social&color=white)](https://github.com/facebookresearch/frankmocap/stargazers)  
   🤖 **Meta AI Single-View 3D Hand + Body Motion Estimator.** High-speed, robust monocular mocap system integrating separate deep-learning body and hand modules. Produces 3D SMPL-X parametric meshes and joint rotations directly from standard monocular RGB video feeds without dedicated depth cameras or calibration grids.
 
-- **[UniRig](https://github.com/VAST-AI-Research/UniRig)** [![GitHub Stars](https://img.shields.io/github/stars/VAST-AI-Research/UniRig?style=social&color=white)](https://github.com/VAST-AI-Research/UniRig/stargazers)  
+- **[UniRig](https://github.com/VAST-AI-Research/UniRig)** [![GitHub_Stars](https://img.shields.io/github/stars/VAST-AI-Research/UniRig?style=social&color=white)](https://github.com/VAST-AI-Research/UniRig/stargazers)  
   🧬 **Universal Autoregressive Rigging [SIGGRAPH 2025].** Deep-learning framework by Tsinghua University and VAST/Tripo that breaks the boundary of humanoid-only auto-rigging. Utilizes skeleton tree tokenization and bone-point cross-attention to automatically generate topologically valid bone hierarchies and smooth skinning weights for arbitrary creatures, bipeds, quadrupeds, and fictional fantasy models.
 
-- **[RigNet](https://github.com/zhan-xu/RigNet)** [![GitHub Stars](https://img.shields.io/github/stars/zhan-xu/RigNet?style=social&color=white)](https://github.com/zhan-xu/RigNet/stargazers)  
+- **[RigNet](https://github.com/zhan-xu/RigNet)** [![GitHub_Stars](https://img.shields.io/github/stars/zhan-xu/RigNet?style=social&color=white)](https://github.com/zhan-xu/RigNet/stargazers)  
   🧠 **Neural Rigging for Articulated Characters [SIGGRAPH 2020].** Seminal academic baseline that automates character rigging directly from 3D surface meshes. Predicts kinematic joint locations, connects them into a hierarchical skeleton tree, and calculates smooth skinning weight envelopes without requiring any pre-defined template topology.
 
-- **[MAMMA](https://github.com/cuevhv/mamma)** [![GitHub Stars](https://img.shields.io/github/stars/cuevhv/mamma?style=social&color=white)](https://github.com/cuevhv/mamma/stargazers)  
+- **[MAMMA](https://github.com/cuevhv/mamma)** [![GitHub_Stars](https://img.shields.io/github/stars/cuevhv/mamma?style=social&color=white)](https://github.com/cuevhv/mamma/stargazers)  
   👥 **Markerless Accurate Multi-Person Motion Acquisition.** Deep-learning multi-person 3D human pose recovery framework that handles complex multi-subject interactions, occlusions, and fast athletic motions from video feeds without traditional wearable sensors.
 
-- **[PSD2Live](https://github.com/tsunehimatoi/psd2live)** [![GitHub Stars](https://img.shields.io/github/stars/tsunehimatoi/psd2live?style=social&color=white)](https://github.com/tsunehimatoi/psd2live/stargazers)  
+- **[PSD2Live](https://github.com/tsunehimatoi/psd2live)** [![GitHub_Stars](https://img.shields.io/github/stars/tsunehimatoi/psd2live?style=social&color=white)](https://github.com/tsunehimatoi/psd2live/stargazers)  
   🎨 **Automated Layered PSD to Live2D Rigging Pipeline.** Converts layered Photoshop (PSD) character art into functional Live2D Cubism models (`.moc3`/`.cmo3`), complete with rigging, physics, deformation meshes, and VTube Studio-ready tracking parameters without manual mesh point slicing.
 
-- **[Reze MiPo](https://github.com/AmyangXYZ/reze-mipo)** [![GitHub Stars](https://img.shields.io/github/stars/AmyangXYZ/reze-mipo?style=social&color=white)](https://github.com/AmyangXYZ/reze-mipo/stargazers)  
+- **[Reze MiPo](https://github.com/AmyangXYZ/reze-mipo)** [![GitHub_Stars](https://img.shields.io/github/stars/AmyangXYZ/reze-mipo?style=social&color=white)](https://github.com/AmyangXYZ/reze-mipo/stargazers)  
   🌐 **In-Browser Real-Time MMD Motion Capture Engine.** High-performance WebGPU/WebGL client-side tracking application leveraging MediaPipe Holistic to track body, hands, and facial blendshapes via browser webcam and translate movements directly to MMD/PMX 3D characters in real time.
 
-- **[SkinTokens](https://github.com/VAST-AI-Research/SkinTokens)** [![GitHub Stars](https://img.shields.io/github/stars/VAST-AI-Research/SkinTokens?style=social&color=white)](https://github.com/VAST-AI-Research/SkinTokens/stargazers)  
+- **[SkinTokens](https://github.com/VAST-AI-Research/SkinTokens)** [![GitHub_Stars](https://img.shields.io/github/stars/VAST-AI-Research/SkinTokens?style=social&color=white)](https://github.com/VAST-AI-Research/SkinTokens/stargazers)  
   📐 **Learned Compact Representation for Autoregressive Rigging.** Successor to UniRig that formulates skin weight painting into discrete skin tokens. Enables end-to-end autoregressive skin prediction with reinforcement learning optimization, significantly cutting skinning deformation artifacts across complex non-rigid joints.
 
-- **[MoCapAnything V2](https://github.com/phongdaot/MocapAnything)** [![GitHub Stars](https://img.shields.io/github/stars/phongdaot/MocapAnything?style=social&color=white)](https://github.com/phongdaot/MocapAnything/stargazers)  
+- **[MoCapAnything V2](https://github.com/phongdaot/MocapAnything)** [![GitHub_Stars](https://img.shields.io/github/stars/phongdaot/MocapAnything?style=social&color=white)](https://github.com/phongdaot/MocapAnything/stargazers)  
   ⚡ **End-to-End Motion Capture for Arbitrary Skeletons [SIGGRAPH Asia 2026].** Joint optimization framework transforming monocular video directly into BVH-ready skeletal joint rotations for humans, animals, quadrupeds, and custom mechanical rigs—delivering ~20× faster performance than traditional iterative mesh-fitting pipelines.
 
-- **[Reze MiPo Desktop](https://github.com/BesingBG/reze-mipo-desktop)** [![GitHub Stars](https://img.shields.io/github/stars/BesingBG/reze-mipo-desktop?style=social&color=white)](https://github.com/BesingBG/reze-mipo-desktop/stargazers)  
+- **[Reze MiPo Desktop](https://github.com/BesingBG/reze-mipo-desktop)** [![GitHub_Stars](https://img.shields.io/github/stars/BesingBG/reze-mipo-desktop?style=social&color=white)](https://github.com/BesingBG/reze-mipo-desktop/stargazers)  
   💻 **Offline Native MMD AI Video-to-VMD Exporter.** Standalone cross-platform desktop wrapper for the Reze MiPo engine. Enables zero-cloud, fully local processing of video clips and live webcam streams directly into `.vmd` motion files for MikuMikuDance production.
 
 ---
 
 ## 💡 Additional Open-Source Assets & Core Engines
 
-- **[mesh2motion-assets](https://github.com/Mesh2Motion/mesh2motion-assets)** [![GitHub Stars](https://img.shields.io/github/stars/Mesh2Motion/mesh2motion-assets?style=social&color=white)](https://github.com/Mesh2Motion/mesh2motion-assets/stargazers) — The accompanying CC0-licensed asset repository (curated 3D meshes, skeleton hierarchies, and animation tracks) powering the Mesh2Motion application.
+- **[mesh2motion-assets](https://github.com/Mesh2Motion/mesh2motion-assets)** [![GitHub_Stars](https://img.shields.io/github/stars/Mesh2Motion/mesh2motion-assets?style=social&color=white)](https://github.com/Mesh2Motion/mesh2motion-assets/stargazers) — The accompanying CC0-licensed asset repository (curated 3D meshes, skeleton hierarchies, and animation tracks) powering the Mesh2Motion application.
 
 ---
 
@@ -115,7 +115,7 @@ Contributions are warmly welcomed! Help keep this directory accurate, up-to-date
 
 1. 🍴 **Fork the repository**.
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-tool`).
-3. 📝 **Add or update an entry** in `README.md` following the established table / list format. Include pricing details and free tier limits for SaaS, or a verified GitHub star badge for open-source entries.
+3. 📝 **Add or update an entry** in `README.md` following the established table / list format. Include pricing details and free tier limits for SaaS, or a verified GitHub Stars_Badge for open-source entries.
 4. 🚀 **Commit and push** your changes (`git commit -m "feat: add NewTool entry"`).
 5. 📬 **Open a Pull Request** with a brief summary of the software or repository added.
 
